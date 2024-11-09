@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./assets/css/style.css">
+ 
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <div id="greetings-container" class="greetings-container">
+    <div class="greeting" id="greeting"></div>
+</div>
+
+  <header class="header" data-header>
+    <div class="container">
+ 
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="./index.html" class="logo">
+            <img src="./assets/images/home.gif" width="64" height="24" alt="sanjeev">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+
+
+          <li>
+            <a href="./assets/resume.pdf" target="_blank" class="navbar-link">Resume</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:sanzeeprae@gmail.com.com" class="contact-link">Email</a>
+          <a href="tel:9810135468" class="contact-link">Phone </a> 
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://github.com/sanjeevRae" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/san-bayung-rai/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/san_bayung_rai/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  
+
+  <main>
+    <article>
+
+      <section class="section first" aria-label="home">
+        <div class="container">
+
+          <figure class="first-banner">
+            <img src="./assets/images/5SM.gif" width="560" height="540" alt="sanjeev">
+
+          </figure>
+
+          <div class="first-content">
+
+            <h1 class="h1 first-title" data-reveal="top" data-reveal-delay="0.5s">
+              Hi, I'm Sanjeev
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              I specialize in UI design, crafting stunning visuals, and delivering high-impact graphic design.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary">See My Works</a>
+
+              <a href="#" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                I specialize in web design, .NET desktop apps, UI design, and graphic design. 
+                I focus on creating user-friendly interfaces and visually appealing graphics.
+               
+              </p>
+            </div>
+            
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Web Design</p>
+
+                  <span class="span">60 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 60%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Ui</p>
+
+                  <span class="span">76 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 76%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>.NET Desktop Apps</p>
+
+                  <span class="span">62 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 62%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Graphic Design</p>
+
+                  <span class="span">65 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 65%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+          <br>
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/web-design.png" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Design</h3>
+
+                <p class="card-text">
+                  Crafting engaging websites with intuitive navigation and stunning visuals.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/ui-design.png" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">UI</h3>
+
+                <p class="card-text">
+                  Creating seamless user experiences through intuitive interface designs.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/website.png" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">.NET Desktop Apps</h3>
+
+                <p class="card-text">
+                  Developing powerful desktop applications using .NET framework.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/pen-tool.png" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Graphic Design</h3>
+
+                <p class="card-text">
+                  Designing impactful visuals that communicate and enhance brand identity effectively.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+<section>
+  <div class="rockyou">
+    <h2 class="h2 section-title" id="project-label">Design & Editing Highlights</h2>
+    <p class="section-text">
+      Check out some of my recent photo editing ventures.
+    </p>
+  </div>
+  
+</section>
+<br>
+
+<section>
+  
+  <div class="rockyou">
+    
+    <div class="pholder">
+      <div class="pholder-item" tabindex="0">
+        <img src="work/p2.png" class="pholder-image" alt="Making flyer for Plexbit" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/p1.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/t1.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+
+      <div class="pholder-item" tabindex="0">
+        <img src="work/8.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/9.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/13.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+
+      <div class="pholder-item" tabindex="0">
+        <img src="work/t2.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/3.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/2.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/4.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/10.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/11.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/1.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/6.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      <div class="pholder-item" tabindex="0">
+        <img src="work/7.png" class="pholder-image" alt="" loading="lazy">
+      </div>
+      
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+    <a class="prev">&#10094;</a>
+    <a class="next">&#10095;</a>
+  </div>
+  
+
+</section>
+
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+
+            <a href="#" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #a07cc5">Web Design</p>
+
+                  <h3 class="h3 card-title">BIGDEAL</h3>
+
+                  <p class="card-text">
+                    BigDeal, an online shopping platform, prioritizes intuitive UI and UX design, 
+                    focusing on seamless navigation and visually appealing, user-friendly layouts.
+                  </p>
+
+                  <a href="https://sanjeevrae.github.io/Bigdeal/" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="500" height="290" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #3f78e0">Web Design</p>
+
+                  <h3 class="h3 card-title">NOTFLIX</h3>
+
+                  <p class="card-text">
+                  StreamVision, a video streaming platform inspired by the popular service Netflix, 
+                  offers an immersive viewing experience with user-friendly features and a vast content 
+                  library.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-2.gif" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">.NET Desktop Application</p>
+
+                  <h3 class="h3 card-title">BIGDEAL Desktop App</h3>
+
+                  <p class="card-text">
+                    BigDeal's .NET desktop application combines powerful functionality with intuitive design,
+                     offering users a seamless online shopping experience directly from their desktops.
+                  </p>
+
+                  <a href="https://github.com/sanjeevRae/Bigdeal-winform" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Web Design</p>
+
+                  <h3 class="h3 card-title">Visit Nepal 2020</h3>
+
+                  <p class="card-text">
+                    Visit Nepal 2020 a web-based application guiding tourists to Nepal's must-visit places, 
+                    offering insights and recommendations for an unforgettable travel experience.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-3.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">Have any questions or collaboration ideas?</h2>
+
+              <p class="section-text">
+                I’m ready to discuss and dive into new projects.
+                 Use the contact form to reach out, and I’ll get back to you quickly.
+              </p>
+
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+
+                <input type="hidden" name="access_key" value="7d7825b9-3d3b-4aa8-9668-88070b7d59aa">
+
+
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 Sanjeev Rai. All rights reserved.
+      </p>
+
+      <ul class="social-list1">
+
+        <li>
+          <a href="https://github.com/sanjeevRae" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/san-bayung-rai/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/san_bayung_rai/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+
+      </ul>
+
+    </div>
+  </footer>
+
+ 
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
