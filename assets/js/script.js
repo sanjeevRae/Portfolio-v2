@@ -87,8 +87,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const greetings = [
       "Hello",
       "नमस्कार",
-      "Konnichiwa",
-      "Bonjour",
       "Hallo"
       
   ];
@@ -101,9 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
       greetingElement.textContent = greetings[currentIndex];
       currentIndex++;
       if (currentIndex < greetings.length) {
-          setTimeout(showNextGreeting, 700);
+          setTimeout(showNextGreeting, 400);
       } else {
-          setTimeout(hideGreetingsContainer, 700);
+          setTimeout(hideGreetingsContainer, 400);
       }
   }
 
