@@ -614,9 +614,16 @@
   <footer class="footer">
     <div class="container">
 
-      <p class="copyright">
-        © 2025 Sanjeev Rai. All rights reserved.
-      </p>
+      <script>
+        window.onload = function() {
+          var now = new Date();
+          var year = now.getFullYear();
+          document.getElementById("date").innerHTML = year;
+        };
+      </script>
+      
+      <p>Copyright <span>© <span id="date"></span></span> <strong class="px-1 sitename">Awddel Holdings.</strong> <span>All Rights Reserved</span></p>
+      
 
       <ul class="social-list1">
 
